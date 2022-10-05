@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - it-charly-scrapper > request > hawk > hoek:
+        patched: '2022-10-05T20:00:28.357Z'
+    - it-charly-scrapper > request > hawk > boom > hoek:
+        patched: '2022-10-05T20:00:28.357Z'
+    - it-charly-scrapper > request > hawk > sntp > hoek:
+        patched: '2022-10-05T20:00:28.357Z'
+    - it-charly-scrapper > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T20:00:28.357Z'
+  'npm:lodash:20180130':
+    - it-charly-scrapper > cheerio > lodash:
+        patched: '2022-10-05T20:00:28.357Z'
+  'npm:request:20160119':
+    - it-charly-scrapper > request:
+        patched: '2022-10-05T20:00:28.357Z'
+  'npm:tough-cookie:20170905':
+    - it-charly-scrapper > request > tough-cookie:
+        patched: '2022-10-05T20:00:28.357Z'
+  'npm:tunnel-agent:20170305':
+    - it-charly-scrapper > request > tunnel-agent:
+        patched: '2022-10-05T20:00:28.357Z'
