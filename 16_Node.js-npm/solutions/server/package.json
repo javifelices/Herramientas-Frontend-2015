@@ -6,15 +6,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon -w src --exec babel-node -- src/index.js",
-    "start": "babel-node src/index.js"
+    "start": "babel-node src/index.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "console-png": "^1.1.0",
-    "express": "4.13.3",
-    "it-charly-scrapper": "0.0.2"
+    "express": "4.16.0",
+    "it-charly-scrapper": "0.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-cli": "6.3.17",
@@ -25,5 +28,6 @@
     "presets": [
       "es2015"
     ]
-  }
+  },
+  "snyk": true
 }
