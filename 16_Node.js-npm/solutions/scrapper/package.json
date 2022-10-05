@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "dependencies": {
     "bluebird": "3.0.6",
-    "cheerio": "0.19.0",
-    "request": "2.67.0"
+    "cheerio": "0.20.0",
+    "request": "2.87.0"
   },
   "devDependencies": {
     "babel": "6.3.13",
