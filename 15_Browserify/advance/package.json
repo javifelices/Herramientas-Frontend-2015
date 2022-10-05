@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "bluebird": "^3.0.6",
-    "isomorphic-fetch": "^2.2.0"
+    "isomorphic-fetch": "^3.0.0"
   }
 }
